@@ -1,0 +1,33 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+<!DOCTYPE html>
+<html lang="@localizer["lang"]" dir="@localizer["dir"]">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - متعدد اللغات</title>
+    <link href="~/lib/bootstrap/css/@localizer["bootstrap"]" rel="stylesheet" />
+    <link href="~/lib/bootstrap/css/@localizer["bootstrap-grid"]" rel="stylesheet" />
+    <link href="~/lib/bootstrap/css/@localizer["bootstrap-reboot"]" rel="stylesheet" />
+    <link href="~/lib/bootstrap/css/@localizer["bootstrap-utilities"]" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <partial name="_HeaderPartial" />
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; @DateTime.UtcNow.AddHours(3).Year
+        </div>
+    </footer>
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
