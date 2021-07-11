@@ -117,28 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="bootstrap" xml:space="preserve">
-    <value>bootstrap.css</value>
+  <data name="Confirm password" xml:space="preserve">
+    <value>تأكيد كلمة المرور</value>
   </data>
-  <data name="bootstrap-grid" xml:space="preserve">
-    <value>bootstrap-grid.css</value>
+  <data name="Email" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
   </data>
-  <data name="bootstrap-reboot" xml:space="preserve">
-    <value>bootstrap-reboot.css</value>
+  <data name="Password" xml:space="preserve">
+    <value>كلمة المرور</value>
   </data>
-  <data name="bootstrap-utilities" xml:space="preserve">
-    <value>bootstrap-utilities.css</value>
+  <data name="Remember me?" xml:space="preserve">
+    <value>تذكرني؟</value>
   </data>
-  <data name="dir" xml:space="preserve">
-    <value>ltr</value>
+  <data name="The password and confirmation password do not match." xml:space="preserve">
+    <value>كلمة المرور وتأكيد كلمة المرور غير متطابقتان.</value>
   </data>
-  <data name="Footer Text" xml:space="preserve">
-    <value>Developer Hashim Al-Mansouri</value>
+  <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
+    <value>{0} يجب أن يكون طول على الأقل {2} وعلى الأكثر {1} رمز.</value>
   </data>
-  <data name="lang" xml:space="preserve">
-    <value>en</value>
+  <data name="{0} is not valid." xml:space="preserve">
+    <value>{0} غير صالح.</value>
   </data>
-  <data name="Website Name" xml:space="preserve">
-    <value>Multilingual</value>
+  <data name="{0} is required." xml:space="preserve">
+    <value>{0} حقل مطلوب.</value>
   </data>
 </root>

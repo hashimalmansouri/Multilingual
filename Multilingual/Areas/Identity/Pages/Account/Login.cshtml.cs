@@ -42,12 +42,13 @@ namespace Multilingual.Areas.Identity.Pages.Account
 
         public class InputModel
         {
-            //[Required(ErrorMessageResourceType = typeof(Resources),
-                //ErrorMessageResourceName = "")]
-            [EmailAddress]
+            [Required(ErrorMessage = "{0} is required.")]
+            [Display(Name = "Email")]
+            [EmailAddress(ErrorMessage = "{0} is not valid.")]
             public string Email { get; set; }
 
-            [Required]
+            [Required(ErrorMessage = "{0} is required.")]
+            [Display(Name = "Password")]
             [DataType(DataType.Password)]
             public string Password { get; set; }
 

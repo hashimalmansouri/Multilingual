@@ -14,7 +14,7 @@
     var returnUrl = string.IsNullOrEmpty(Context.Request.Path) ? "~/" : $"~{Context.Request.Path.Value}{Context.Request.QueryString}";
 }
 
-<div title="@Localizer["Request culture provider:"] @requestCulture?.Provider?.GetType().Name">
+<div @*title="@Localizer["Request culture provider:"] @requestCulture?.Provider?.GetType().Name"*@>
     <form id="selectLanguage"
           asp-controller="Culture"
           asp-action="SetCulture"

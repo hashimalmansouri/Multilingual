@@ -132,7 +132,13 @@
   <data name="dir" xml:space="preserve">
     <value>rtl</value>
   </data>
+  <data name="Footer Text" xml:space="preserve">
+    <value>المطور هاشم المنصوري</value>
+  </data>
   <data name="lang" xml:space="preserve">
     <value>ar</value>
+  </data>
+  <data name="Website Name" xml:space="preserve">
+    <value>متعدد اللغات</value>
   </data>
 </root>

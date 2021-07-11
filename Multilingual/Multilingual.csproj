@@ -24,11 +24,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Resources\Areas\Identity\Account\Login.ar.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
+    <EmbeddedResource Update="Resources\Areas\Identity\Pages\Account\Login.ar.resx">
+      <Generator></Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Resources\Areas\Identity\Account\Login.en.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
+    <EmbeddedResource Update="Resources\Areas\Identity\Pages\Account\Login.en.resx">
+      <Generator></Generator>
     </EmbeddedResource>
   </ItemGroup>
 

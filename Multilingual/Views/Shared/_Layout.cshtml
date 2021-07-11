@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - متعدد اللغات</title>
+    <title>@ViewData["Title"] - @localizer["Website Name"]</title>
     <link href="~/lib/bootstrap/css/@localizer["bootstrap"]" rel="stylesheet" />
     <link href="~/lib/bootstrap/css/@localizer["bootstrap-grid"]" rel="stylesheet" />
     <link href="~/lib/bootstrap/css/@localizer["bootstrap-reboot"]" rel="stylesheet" />
@@ -20,9 +20,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted text-center">
         <div class="container">
-            &copy; @DateTime.UtcNow.AddHours(3).Year
+            @localizer["Footer Text"] - @DateTime.UtcNow.AddHours(3).Year &copy;
         </div>
     </footer>
     <script src="~/lib/jquery/jquery.js"></script>

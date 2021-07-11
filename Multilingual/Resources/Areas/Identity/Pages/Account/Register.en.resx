@@ -117,28 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="bootstrap" xml:space="preserve">
-    <value>bootstrap.css</value>
+  <data name="Register" xml:space="preserve">
+    <value>Register</value>
   </data>
-  <data name="bootstrap-grid" xml:space="preserve">
-    <value>bootstrap-grid.css</value>
-  </data>
-  <data name="bootstrap-reboot" xml:space="preserve">
-    <value>bootstrap-reboot.css</value>
-  </data>
-  <data name="bootstrap-utilities" xml:space="preserve">
-    <value>bootstrap-utilities.css</value>
-  </data>
-  <data name="dir" xml:space="preserve">
-    <value>ltr</value>
-  </data>
-  <data name="Footer Text" xml:space="preserve">
-    <value>Developer Hashim Al-Mansouri</value>
-  </data>
-  <data name="lang" xml:space="preserve">
-    <value>en</value>
-  </data>
-  <data name="Website Name" xml:space="preserve">
-    <value>Multilingual</value>
+  <data name="Title" xml:space="preserve">
+    <value>Register</value>
   </data>
 </root>
