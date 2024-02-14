@@ -1,14 +1,13 @@
-﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
-<!DOCTYPE html>
-<html lang="@localizer["lang"]" dir="@localizer["dir"]">
+﻿<!DOCTYPE html>
+<html lang="@L["lang"]" dir="@L["dir"]">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - @localizer["Website Name"]</title>
-    <link href="~/lib/bootstrap/css/@localizer["bootstrap"]" rel="stylesheet" />
-    <link href="~/lib/bootstrap/css/@localizer["bootstrap-grid"]" rel="stylesheet" />
-    <link href="~/lib/bootstrap/css/@localizer["bootstrap-reboot"]" rel="stylesheet" />
-    <link href="~/lib/bootstrap/css/@localizer["bootstrap-utilities"]" rel="stylesheet" />
+    <title>@ViewData["Title"] - @L["Website Name"]</title>
+    <link href="~/lib/bootstrap/css/@L["bootstrap"]" rel="stylesheet" />
+    <link href="~/lib/bootstrap/css/@L["bootstrap-grid"]" rel="stylesheet" />
+    <link href="~/lib/bootstrap/css/@L["bootstrap-reboot"]" rel="stylesheet" />
+    <link href="~/lib/bootstrap/css/@L["bootstrap-utilities"]" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
@@ -22,7 +21,7 @@
 
     <footer class="border-top footer text-muted text-center">
         <div class="container">
-            @localizer["Footer Text"] - @DateTime.UtcNow.AddHours(3).Year &copy;
+            @L["Footer Text"] - @DateTime.UtcNow.AddHours(3).Year &copy;
         </div>
     </footer>
     <script src="~/lib/jquery/jquery.js"></script>

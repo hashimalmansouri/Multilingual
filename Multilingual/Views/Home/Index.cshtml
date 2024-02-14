@@ -8,3 +8,12 @@
     <h1 class="display-4">@localizer["Welcome"]</h1>
     <p>@localizer["LearnMore"]</p>
 </div>
+
+@if (Multilingual.Helpers.CultureHelper.IsArabic())
+{
+    <h1>اللغة العربية</h1>
+}
+else
+{
+    <h1>English</h1>
+}
